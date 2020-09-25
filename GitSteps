@@ -1,0 +1,12 @@
+#/local/usr/bin
+git init # Initialise the Git 
+git remote add origin https://github.com/svpallerla/Kubernetes #add git origin as a remote on to your system
+git remote -v # check whether get push and pull created in your local repository
+#do git pull from our master
+
+git pull origin master
+
+# now lets try and create a file in your local directory
+
+touch helloWorldTest.txt < echo " Hello How are you! Have you seen new version Control ! I am bet you gonna get the above 600£ per day Job !!! " 
+
